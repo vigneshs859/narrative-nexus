@@ -18,7 +18,7 @@ server.use(express.json())
 server.use(fileUpload({
     useTempFiles: true
 }))
-let PORT = 4000;
+let PORT = 8080;
 server.use(cors())
 admin.initializeApp({
     credential: admin.credential.cert({
